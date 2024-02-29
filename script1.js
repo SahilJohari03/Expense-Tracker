@@ -13,7 +13,7 @@ const localStorageTransactions = JSON.parse(
 let transactions =
     localStorage.getItem('transactions') !== null ? localStorageTransactions : [];
 
-// Add transaction
+// Add transaction to the project
 function addTransaction(e) {
     e.preventDefault();
 
